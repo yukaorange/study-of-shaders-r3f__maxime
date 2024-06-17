@@ -4,14 +4,13 @@ import { Sns } from "@/components/Sns";
 import { MenuButton } from "@/components/MenuButton";
 import { Loader } from "@react-three/drei";
 
-const App = () => {
+const App = (): JSX.Element => {
   return (
     <>
       <Loader />
       <MenuButton />
       <Sns />
-      <Canvas shadows camera={{ position: [3, 3, 3], fov: 30 }}>
-        <color attach="background" args={["#ececec"]} />
+      <Canvas camera={{ position: [1, 1, 1] }}>
         <Experience />
       </Canvas>
     </>

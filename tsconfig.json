@@ -10,7 +10,10 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["src/*"],
+      "@shaders/*": ["src/shaders/*"],
+      "@components/*": ["src/components/*"],
+      "@state/*": ["src/state/*"]
     }
   },
   "include": ["src"]
